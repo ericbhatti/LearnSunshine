@@ -76,7 +76,7 @@ public class MainActivity extends ActionBarActivity {
         public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
             super.onCreateOptionsMenu(menu, inflater);
             inflater.inflate(R.menu.main,menu);
-            new CursorAdapter()
+            new CursorAdapter();
         }
 
         @Override
